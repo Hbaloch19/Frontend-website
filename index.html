@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veloura — Modern Fashion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-50LRTYLRB1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-50LRTYLRB1');
+</script>
+
+<header class="header">
+  <a class="logo" href="index.html">VELOURA<span>.</span></a>
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <nav class="nav">
+    <a class="active" href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="lookbook.html">Lookbook</a>
+    <a href="about.html">About</a>
+  </nav>
+  <button class="cart-btn" onclick="openCart()">Bag <span id="cartCount">0</span></button>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">AUTUMN / WINTER 2026</p>
+    <h1>Wear your<br><em>confidence.</em></h1>
+    <p class="lead">Elevated essentials and statement pieces designed for the woman who makes every entrance memorable.</p>
+    <a class="btn" href="shop.html">Explore collection</a>
+  </div>
+  <div class="hero-art"><div class="model-shape"></div><div class="hero-card">NEW<br>ARRIVALS</div></div>
+</section>
+
+<section class="marquee"><span>TIMELESS · FEMININE · BOLD · TIMELESS · FEMININE · BOLD ·</span></section>
+
+<section class="intro section">
+  <div><p class="eyebrow">THE EDIT</p><h2>Quiet luxury,<br><em>loud impact.</em></h2></div>
+  <p>From tailored silhouettes to soft knits, Veloura brings together modern wardrobe icons in a palette made for effortless dressing.</p>
+</section>
+
+<section class="feature-grid section">
+  <article class="feature feature-a"><div><span>01</span><h3>The Tailored Edit</h3><a href="shop.html">Discover →</a></div></article>
+  <article class="feature feature-b"><div><span>02</span><h3>Soft Layers</h3><a href="shop.html">Discover →</a></div></article>
+  <article class="feature feature-c"><div><span>03</span><h3>After Dark</h3><a href="shop.html">Discover →</a></div></article>
+</section>
+</main>
+
+<footer><div class="logo">VELOURA<span>.</span></div><p>Modern pieces for modern lives.</p><p>© 2026 Veloura Studio</p></footer>
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><h2>Your bag</h2><p id="cartText">Your bag is empty.</p><a class="btn" href="shop.html">Continue shopping</a></div></div>
+<script src="script.js"></script>
+</body>
+</html>

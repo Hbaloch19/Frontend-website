@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Shop — Veloura</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="header"><a class="logo" href="index.html">VELOURA<span>.</span></a><button class="menu-toggle">☰</button><nav class="nav"><a href="index.html">Home</a><a class="active" href="shop.html">Shop</a><a href="lookbook.html">Lookbook</a><a href="about.html">About</a></nav><button class="cart-btn" onclick="openCart()">Bag <span id="cartCount">0</span></button></header>
+<main>
+<section class="page-head"><p class="eyebrow">SHOP ALL</p><h1>Pieces to <em>keep.</em></h1><p>Curated essentials with a point of view.</p></section>
+<section class="products section">
+  <article class="product"><div class="product-img p1"><span>NEW</span></div><div class="product-info"><h3>Silk Wrap Blouse</h3><p>Ivory · $145</p><button onclick="addToCart('Silk Wrap Blouse')">Add to bag</button></div></article>
+  <article class="product"><div class="product-img p2"></div><div class="product-info"><h3>Structured Blazer</h3><p>Chocolate · $240</p><button onclick="addToCart('Structured Blazer')">Add to bag</button></div></article>
+  <article class="product"><div class="product-img p3"></div><div class="product-info"><h3>Column Skirt</h3><p>Oat · $180</p><button onclick="addToCart('Column Skirt')">Add to bag</button></div></article>
+  <article class="product"><div class="product-img p4"><span>BESTSELLER</span></div><div class="product-info"><h3>Soft Knit Dress</h3><p>Mocha · $210</p><button onclick="addToCart('Soft Knit Dress')">Add to bag</button></div></article>
+  <article class="product"><div class="product-img p5"></div><div class="product-info"><h3>Wide Leg Trousers</h3><p>Stone · $165</p><button onclick="addToCart('Wide Leg Trousers')">Add to bag</button></div></article>
+  <article class="product"><div class="product-img p6"></div><div class="product-info"><h3>Leather Mini Bag</h3><p>Espresso · $195</p><button onclick="addToCart('Leather Mini Bag')">Add to bag</button></div></article>
+</section>
+</main>
+<footer><div class="logo">VELOURA<span>.</span></div><p>Modern pieces for modern lives.</p><p>© 2026 Veloura Studio</p></footer>
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><h2>Your bag</h2><p id="cartText">Your bag is empty.</p><a class="btn" href="shop.html">Continue shopping</a></div></div>
+<script src="script.js"></script>
+</body></html>
