@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>About — Veloura</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="header"><a class="logo" href="index.html">VELOURA<span>.</span></a><button class="menu-toggle">☰</button><nav class="nav"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="lookbook.html">Lookbook</a><a class="active" href="about.html">About</a></nav><button class="cart-btn" onclick="openCart()">Bag <span id="cartCount">0</span></button></header>
+<main>
+<section class="about-hero"><div><p class="eyebrow">OUR STORY</p><h1>Designed for<br><em>your era.</em></h1></div><div class="about-art"></div></section>
+<section class="story section"><div><p class="eyebrow">VEL OURA / 2026</p><h2>Fashion should feel<br>like <em>you.</em></h2></div><div><p>Veloura was born from a simple idea: the best wardrobe is not the loudest one. It is the one that makes you feel unmistakably yourself.</p><p>We create considered silhouettes, tactile fabrics and versatile pieces that move between the everyday and the unforgettable.</p></div></section>
+<section class="values section"><div><strong>01</strong><h3>Considered</h3><p>Every silhouette earns its place.</p></div><div><strong>02</strong><h3>Confident</h3><p>Minimal does not mean invisible.</p></div><div><strong>03</strong><h3>Enduring</h3><p>Designed beyond the season.</p></div></section>
+<section class="newsletter"><p class="eyebrow">STAY IN THE LOOP</p><h2>First look, always.</h2><form onsubmit="subscribe(event)"><input id="email" type="email" placeholder="Your email address" required><button class="btn" type="submit">Subscribe</button></form><small id="formMsg"></small></section>
+</main>
+<footer><div class="logo">VELOURA<span>.</span></div><p>Modern pieces for modern lives.</p><p>© 2026 Veloura Studio</p></footer>
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><h2>Your bag</h2><p id="cartText">Your bag is empty.</p><a class="btn" href="shop.html">Shop the collection</a></div></div>
+<script src="script.js"></script>
+</body></html>
